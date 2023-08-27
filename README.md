@@ -35,7 +35,7 @@ The model evaluation was done by using scikit-learn.
 ## Results:
 The 1D_CNN.ipynb jupyterlab file is attached with this project report. The trained CNN model achieved the following performance metrics on the testing data:
 
-### Evaluation Metric	Performance/Score
+#### Evaluation Metric	Performance/Score
 Accuracy	66.14%
 Precision	73.04%
 Recall	69.79%
