@@ -33,7 +33,7 @@ The model evaluation was done by using scikit-learn.
 5.	Calculating performance metrics, such as accuracy, precision, recall, and F1-score using sklearn.metrics.accuracy_score(), sklearn.metrics.precision_score(), sklearn.metrics.recall_score() , and sklearn.metrics.f1_score().
 
 ## Results:
-The 1D_CNN.ipynb jupyterlab file is attached with this project report. The trained CNN model achieved the following performance metrics on the testing data:
+The 1D_CNN.ipynb jupyterlab file is attached with this Readme File. The trained CNN model achieved the following performance metrics on the testing data:
 
 #### Evaluation Metric	Performance/Score
 Accuracy	66.14% <br />
@@ -42,6 +42,6 @@ Recall	69.79% <br />
 F1-score	69.79%
 
 ## Conclusion and future work:
-The project used the VIDIMU dataset to build and evaluate a CNN model for human activity recognition. The results demonstrates that the CNN model was able to recognize most of the activities in the VIDIMU dataset with reasonable accuracy. The project also demonstrated how to use Python tools for data preprocessing, data analysis, model building and model evaluation. The project contributed to the learning of data analysis and machine learning skills, as well as to the exploration of the potential of multimodal data for HAR. The project also contributed to the development of affordable and effective patient tracking solutions and diagnosis.
+The project used the VIDIMU dataset to build and evaluate a CNN model for human activity recognition. The results demonstrates that the CNN model was able to recognize most of the activities in the VIDIMU dataset with reasonable accuracy. The project also demonstrated how to use Python tools for data preprocessing, data analysis, model building and model evaluation. The project contributed to the learning of data analysis and machine learning skills, as well as to the exploration of the potential of multimodal data for HAR. The project also contributed to the development of affordable and effective patient tracking solutions and diagnosis. <br />
 The VIDIMU dataset is a relatively small dataset, with only 54 subjects and 13 activities. Using more data can help to increase the diversity and variability of human activities, as well as to improve the generalization and robustness of the model. Furthermore, in our experiments we used a simple CNN model with two convolutional layers, two max pooling layers, a dropout layer, and a dense layer. Using more advanced methods and models, such as RNNs, attention mechanisms, or transfer learning, can help to learn more complex and dynamic patterns of human activities, as well as to achieve higher performance.
 
