@@ -1,1 +1,4 @@
 # Activity-Recognition-using-Multimodal-Video-Data
+
+Introduction:
+Human activity recognition (HAR) is a research domain that aims to identify and classify human activities from diverse sources of data, such as video, audio, inertial sensors, or wearable devices. HAR has many applications in health care, security, sports, smart environments, and entertainment. HAR has been studied extensively in the past decades. However, most of the studies focused on single-modal data, which may not capture the complementary information of human activities. Therefore, multiple methods proposed to use multimodal data, which can fuse different types of data to enhance the performance and robustness of HAR. In this project, we attempt to recognize human activities using a simple 1D-convolution neural network and have achieved reasonable performance.
