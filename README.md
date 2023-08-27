@@ -1,11 +1,11 @@
 # Activity-Recognition-using-Multimodal-Video-Data
 
-Introduction:
+## Introduction: <br />
 Human activity recognition (HAR) is a research domain that aims to identify and classify human activities from diverse sources of data, such as video, audio, inertial sensors, or wearable devices. HAR has many applications in health care, security, sports, smart environments, and entertainment. HAR has been studied extensively in the past decades. However, most of the studies focused on single-modal data, which may not capture the complementary information of human activities. Therefore, multiple methods proposed to use multimodal data, which can fuse different types of data to enhance the performance and robustness of HAR. In this project, we attempt to recognize human activities using a simple 1D-convolution neural network and have achieved reasonable performance.
 
 ## Data Preprocessing:
-The data collection was done by using the VIDIMU dataset, which is a publicly available dataset that contains multimodal data of 13 daily life activities performed by 54 subjects, recorded using a commodity camera and five inertial sensors. 
-The data preprocessing was done by using pandas library. The steps were:
+The data collection was done using the VIDIMU dataset, which is a publicly available dataset that contains multimodal data of 13 daily life activities performed by 54 subjects, recorded using a commodity camera and five inertial sensors.
+The data preprocessing was done using the Pandas library. The steps were:
 1.	Loading and concatenating the processed data files for each subject and activity into a single dataframe using pandas.read_csv() and pandas.concat().
 2.	Filtering out subjects S43 and S45 due to unavailability in the dataset.
 3.	Splitting the dataframe into features (X) and labels (Y) using pandas.drop().
@@ -36,9 +36,9 @@ The model evaluation was done by using scikit-learn.
 The 1D_CNN.ipynb jupyterlab file is attached with this project report. The trained CNN model achieved the following performance metrics on the testing data:
 
 #### Evaluation Metric	Performance/Score
-Accuracy	66.14%
-Precision	73.04%
-Recall	69.79%
+Accuracy	66.14% <br />
+Precision	73.04% <br />
+Recall	69.79% <br />
 F1-score	69.79%
 
 ## Conclusion and future work:
